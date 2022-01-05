@@ -52,8 +52,10 @@ In addition, we are learning a lot of new knowledge through this project.
 One of the major difficulties that I may have had was in understanging how "malloc" works and how to use it.
 
 ## Final Grade: 
-![#c5f015]107%
- (min to pass = 100%)
+```diff
++![#c5f015]107%
+```
+(min to pass = 100%)
 
 ## Installation
 
