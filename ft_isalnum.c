@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**	Checks if the given argument is a unsigned char "0 to 9", "a to z", or
+**	"A to Z".
+**	Returns false if not.
+*/
+
 int	ft_isalnum(int c)
 {
 	if ((c >= '0' && c <= '9') || (c >= 'a' && c <= 'z')
