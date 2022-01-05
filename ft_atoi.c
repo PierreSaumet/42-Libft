@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**	Convert a string to an integer.
+**		Works like strtol() but doesn't detect errors.
+*/
+
 int	ft_atoi(const char *str)
 {
 	long int	i;
