@@ -12,6 +12,11 @@
 
 #include "libft.h"
 
+/*
+**	Erases the data in the n bytes of the memory at the location pointed by s.
+**		Return value = NONE.
+*/
+
 void	ft_bzero(void *s, size_t n)
 {
 	unsigned int	i;
@@ -24,4 +29,5 @@ void	ft_bzero(void *s, size_t n)
 		str[i] = 0;
 		i++;
 	}
+	return ;
 }
