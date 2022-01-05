@@ -35,7 +35,7 @@ This project allows us to familiarize ourselves with the language.
 	-	ft_strtrim.c
 	-	ft_substr.c
 	-	ft_tolower.c
-	-	ft_oupper.c
+	-	ft_toupper.c
 
 ###	What have I learned?
 	-	Different types (int, char , unsigned ...).
@@ -51,7 +51,9 @@ As a nvice, my biggest difficulty was knowing where to start the project, which 
 In addition, we are learning a lot of new knowledge through this project.
 One of the major difficulties that I may have had was in understanging how "malloc" works and how to use it.
 
-## Final Grade: 107% (min to pass = 100%)
+## Final Grade: 
+![#c5f015]107%
+ (min to pass = 100%)
 
 ## Installation
 
