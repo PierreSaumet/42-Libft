@@ -12,6 +12,12 @@
 
 #include "libft.h"
 
+/*
+**	Checks if the given argument is a 7-bit us-ascii character code.
+**	The function is defined on all integer value.
+**	Returns false if not.
+*/
+
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
