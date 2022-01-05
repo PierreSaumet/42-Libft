@@ -53,9 +53,9 @@ One of the major difficulties that I may have had was in understanging how "mall
 
 ## Final Grade: 
 ```diff
-+![#c5f015]107%
++ 107%
+# (min to pass = 100%)
 ```
-(min to pass = 100%)
 
 ## Installation
 
