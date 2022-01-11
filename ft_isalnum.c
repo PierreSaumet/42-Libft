@@ -14,7 +14,7 @@
 
 /*
 **	Checks if the given argument is a unsigned char "0 to 9", "a to z", or
-**	"A to Z".
+**	"A to Z" (equivalent to isalpha() || isdigit() ).
 **	Returns false if not.
 */
 

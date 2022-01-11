@@ -13,7 +13,7 @@
 #include "libft.h"
 
 /*
-**	Our itoa convert an integer into a char *.
+**	My itoa convert an integer into a char *.
 **	The real one, ask 2 more arguments a buffer and a base.
 **	Returns the converted string or 0 if an eror occurs.
 */
