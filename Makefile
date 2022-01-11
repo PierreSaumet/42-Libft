@@ -1,5 +1,20 @@
+# ************************************************************************** #
+#                                                                            #
+#                                                        :::      ::::::::   #
+#   Makefile                                           :+:      :+:    :+:   #
+#                                                    +:+ +:+         +:+     #
+#   By: psaumet <marvin@42.fr>                     +#+  +:+       +#+        #
+#                                                +#+#+#+#+#+   +#+           #
+#   Created: 2020/08/15 11:05:30 by psaumet           #+#    #+#             #
+#   Updated: 2020/08/15 18:14:06 by psaumet          ###   ########.fr       #
+#                                                                            #
+# ************************************************************************** #
+
 NAME 		= 	libft.a
-SRCS 		=	ft_memset.c	\
+
+################################### SOURCES ##################################
+
+SRCS 		+=	ft_memset.c	\
 				ft_bzero.c	\
 				ft_memcpy.c	\
 				ft_memccpy.c	\
@@ -32,7 +47,7 @@ SRCS 		=	ft_memset.c	\
 				ft_putchar_fd.c	\
 				ft_putstr_fd.c	\
 				ft_putendl_fd.c	\
-				ft_putnbr_fd.c	\
+				ft_putnbr_fd.c	
 
 SRCSBO		=	ft_lstnew.c	\
 				ft_lstadd_front.c	\
@@ -42,33 +57,36 @@ SRCSBO		=	ft_lstnew.c	\
 				ft_lstdelone.c	\
 				ft_lstclear.c	\
 				ft_lstiter.c	\
-				ft_lstmap.c	\
+				ft_lstmap.c	
 
+################################# VARIABLES ##################################
 
 OBJS		=	${SRCS:.c=.o}
 OBJSBO		=	${SRCSBO:.c=.o}
 INCLUDES	=	libft.h
-CC		=	gcc
+CC			=	gcc
 CFLAGS		=	-Wall -Wextra -Werror
+
+
+################################### RULES ####################################
 
 all:		$(NAME)
 
-$(NAME):	${OBJS}
-	ar rc	$(NAME) ${OBJS} 
-	ranlib	$(NAME)
-
-.c.o:
-	${CC} ${CFLAGS} -I $(INCLUDES) -c $< -o ${<:.c=.o}
+$(NAME):
+			$(CC) $(CFLAGS) -c $(SRCS)
+			@ar rc $(NAME) $(OBJS)
+			@ranlib $(NAME)
 
 clean:
 	/bin/rm -f *.o
+
 fclean:		clean
 	/bin/rm -f  $(NAME)
 
 re:		fclean all
 
 bonus:		${OBJSBO} ${OBJS}
-		ar rc $(NAME) ${OBJSBO} ${OBJS}
-		ranlib $(NAME)
+		@ar rc $(NAME) ${OBJSBO} ${OBJS}
+		@ranlib $(NAME)
 
 .PHONY:		all clean fclean re

@@ -20,10 +20,8 @@
 
 void	*ft_calloc(size_t count, size_t size)
 {
-	unsigned int	i;
 	void			*str;
 
-	i = 0;
 	if (!(str = malloc(count * size)))
 		return (NULL);
 	ft_bzero(str, count * size);
