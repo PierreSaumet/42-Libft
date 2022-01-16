@@ -101,5 +101,7 @@ int		main( void )
 ```
 
 > It will display :
+
+
 ![](libft_gif.gif)
 
