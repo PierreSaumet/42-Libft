@@ -72,7 +72,7 @@ _Follow these instructions to install the project._
 Well done, you have created a static library: libft.a
 
 ## Usage
-_Create a main.c for example: _
+_Create a main.c for example:_
 
 Say- C language
 ```
@@ -101,5 +101,5 @@ int		main( void )
 ```
 
 > It will display :
-
+![](libft_gif.gif)
 
