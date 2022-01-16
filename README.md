@@ -50,6 +50,7 @@ This project allows us to familiarize ourselves with the language.
 As a nvice, my biggest difficulty was knowing where to start the project, which function.
 In addition, we are learning a lot of new knowledge through this project.
 One of the major difficulties that I may have had was in understanging how "malloc" works and how to use it.
+Also, when I was doing this project, I had a really hard time to understand the linked lists.
 
 ## Final Grade: 
 ```diff
