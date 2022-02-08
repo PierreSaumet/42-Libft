@@ -1,2 +1,4 @@
 autre.txt
 a.out
+*.o
+libft.a
