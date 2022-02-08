@@ -3,7 +3,7 @@ The first project of the "42" school. Code a library of functions in C.
 
 ## Description
 The first project of the "42" school.
-The main goal of this project is to discorver different functions in C that we will use for future projects.
+The main goal of this project is to discover different functions in C that we will use for future projects.
 This project allows us to familiarize ourselves with the language.
 
 *	List of the functions
@@ -39,15 +39,21 @@ This project allows us to familiarize ourselves with the language.
 
 ###	What have I learned?
 >Different types (int, char , unsigned ...).
+
 >The given arguments and the return of a function.
+
 >"const" keyword.
->Difference between "stack" and "heap"
->Use of "malloc" and "sizeof"
->Use of pointers (char *str)
->Use of Makefile
+
+>Difference between "stack" and "heap".
+
+>Use of "malloc" and "sizeof".
+
+>Use of pointers (char *str).
+
+>Use of Makefile.
 
 ### What difficulties did I encounter?
-As a nvice, my biggest difficulty was knowing where to start the project, which function.
+As a novice, my biggest difficulty was knowing where to start the project, which function.
 In addition, we are learning a lot of new knowledge through this project.
 One of the major difficulties that I may have had was in understanging how "malloc" works and how to use it.
 Also, when I was doing this project, I had a really hard time to understand the linked lists.
